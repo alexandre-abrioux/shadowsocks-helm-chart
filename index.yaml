@@ -3,6 +3,16 @@ entries:
   shadowsocks:
   - apiVersion: v2
     appVersion: v3.3.5
+    created: "2021-12-08T14:16:41.62876422Z"
+    description: A Helm chart for Kubernetes
+    digest: 56719533097fb1ca18d7faaaf45543f5f3ceff3bfcf9e4305c7cfe775d4d1a85
+    name: shadowsocks
+    type: application
+    urls:
+    - https://github.com/alexandre-abrioux/shadowsocks-helm-chart/releases/download/shadowsocks-0.1.2/shadowsocks-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v3.3.5
     created: "2021-12-07T21:45:47.273831117Z"
     description: A Helm chart for Kubernetes
     digest: c18f9d6938f91383a68289bc3b8424b23501df295d4f340731dfb0a1f4913158
