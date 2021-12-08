@@ -55,7 +55,7 @@ spec:
             {{- end }}
             {{- with .Values.shadowsocks.dnsServers }}
             - name: DNS_ADDRS
-              value: {{ join "," . }}
+              value: {{ quote join "," . }}
             {{- end }}
             {{- with .Values.shadowsocks.timeout }}
             - name: TIMEOUT
